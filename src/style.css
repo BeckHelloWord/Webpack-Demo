@@ -1,9 +1,9 @@
 .hello {
-    color: yellow;
+    color: red;
 }
 
 .logo-img {
     height: 300px;
     color: blueviolet;
-    background: url('./icon_gotop.png') no-repeat;
+    background: url('./assets/mm.jpg') no-repeat;
 }
