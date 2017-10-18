@@ -5,9 +5,9 @@ import printMe from './print.js';
 import { cube } from './math.js';
 
 if (process.env.NODE_ENV == 'production') {
-    console.log('通过生产环境打包!');
+    console.log('通过生产环境打包');
 } else {
-    console.log('通过开发环境打包！');
+    console.log('通过开发环境打包');
 }
 
 function component() {

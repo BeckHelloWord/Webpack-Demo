@@ -13,7 +13,7 @@ module.exports = {
     devtool: 'inline-source-map', //可以看到报错的具体位置
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: '[name].js'
+        filename: '[name].[chunkhash].js'   //添加hash，处理缓存问题，如果我们不做修改，然后再次运行构建，我们的文件名按照期望，依然保持不变
     },
     devServer: {
         //告诉dev-server，哪个文件夹作为可访问文件
