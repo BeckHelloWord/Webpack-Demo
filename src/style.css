@@ -7,3 +7,7 @@
     color: blueviolet;
     background: url('./assets/mm.jpg') no-repeat;
 }
+.logo-img:hover{
+    transform: rotate(45deg);
+    transition: all 1s;
+}

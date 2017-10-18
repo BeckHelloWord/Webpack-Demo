@@ -57,6 +57,8 @@ module.exports = {
         compress: true,
         port: 9000,
         progress: true,
-        hot: true
-    }
+        hot: true,
+        inline: true, //实时刷新
+        colors: true, //终端中输出结果为彩色
+    },
 };
